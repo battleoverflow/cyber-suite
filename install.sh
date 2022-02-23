@@ -11,12 +11,12 @@ echo "# Author: Hifumi1337 (https://github.com/Hifumi1337) #"
 echo "|----------------------------------------------------|"
 echo "|####################################################|"
 
-Python Dependencies
-function python_dependencies () {
+# Python Dependencies
+python_dependencies() {
     pip3 install pynput==1.7.3
 }
 
-python_dependencies()
+python_dependencies
 
 # Git clone repository - updates repo to make sure it's up to date
 git clone https://github.com/Hifumi1337/cyber-suite.git
