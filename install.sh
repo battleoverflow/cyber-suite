@@ -18,5 +18,5 @@ function python_dependencies () {
 
 python_dependencies()
 
-# Git clone repository
+# Git clone repository - updates repo to make sure it's up to date
 git clone https://github.com/Hifumi1337/cyber-suite.git
