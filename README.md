@@ -1,2 +1,2 @@
 # cyber-suite
-My custom made Cybersecurity or Penetration Testing tools to help me with reconissance, privilege escalation, and more!
+My custom made Cybersecurity and Penetration Testing tools to help me with reconnaissance, privilege escalation, and more!
