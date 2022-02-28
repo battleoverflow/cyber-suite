@@ -3,5 +3,5 @@ Simple Distributed Denial of Service (DDoS) script, sends over 100 requests per 
 
 ## Usage
 ```bash
-python3 Anarchy.py
+python3 anarchy.py <IP_ADDRESS> <PORT>
 ```
