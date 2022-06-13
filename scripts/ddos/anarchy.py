@@ -14,13 +14,13 @@ fake_ip = '192.168.0.1'
 sys.tracebacklimit = 0
 
 # Define our target
-if len(sys.argv) == 3:
-    target = socket.gethostbyname(sys.argv[1])  # Translate hostname to IPv4
-    port = int(sys.argv[2])
+if fake_ip != None:
+    target_ip = input("IP Address: ")
+    target = socket.gethostbyname(target_ip)  # Translate hostname to IPv4
+    # port = int(sys.argv[2])
+    port = input("Port: ")
 else:
-    print("Invalid amount of arguments")
-    print("Syntax: python3 anarchy.py <IP> <PORT>")
-    print("Example: python3 anarchy.py 127.0.0.1 80")
+    print("Invalid inputs")
 
 # Displays terminal output (banner)
 print("-" * 50)
@@ -42,6 +42,7 @@ print("""\
 ⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏⠀⠀⠀⣄⢸⠀⠀⠀⠀⠀⠀
 ⣿⣿⣧⣀⣿.........⣀⣰⣏⣘⣆⣀⠀
 """)
+
 print("Author: Hifumi1337: https://github.com/Hifumi1337")
 
 attack_num = 0
