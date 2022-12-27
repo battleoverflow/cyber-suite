@@ -2,13 +2,13 @@ from os import write
 import pynput
 from pynput.keyboard import Key, Listener
 
-#########################
-#       Keylogger       #
-#   Author: Hifumi1337  #
-#########################
+###########################
+#       Keylogger         #
+#   Author: azazelm3dj3d  #
+###########################
 
 print("-" * 50)
-print("Author: Hifumi1337 (https://github.com/Hifumi1337)")
+print("Author: azazelm3dj3d (https://github.com/azazelm3dj3d)")
 print("-" * 50)
 
 keys = []

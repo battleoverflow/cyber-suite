@@ -10,8 +10,6 @@ class CyberSuite:
 
         print("0 => Anarchy (DDoS)")
         print("1 => Keylogger")
-        # print("2 => DNS Enumeration")
-        # print("3 => Subdomain Enumeration")
 
         print("\n")
 
@@ -35,8 +33,6 @@ class CyberSuite:
 
                 print("0 => Anarchy (DDoS)")
                 print("1 => Keylogger")
-                # print("2 => DNS Enumeration")
-                # print("3 => Subdomain Enumeration")
 
                 print("\n")
             elif script_name == 'clear':
@@ -46,8 +42,8 @@ class CyberSuite:
             elif script_name == '1':
                 os.system("python3 scripts/keylogger/keylogger.py")
             elif script_name == 'e' or script_name == 'exit':
-                print("\nThank you for checking out my personal Cyber Suite! - Hifumi1337")
-                print("Author: https://github.com/Hifumi1337")
+                print("\nThank you for checking out my personal Cyber Suite! - azazelm3dj3d")
+                print("Author: https://github.com/azazelm3dj3d")
                 sys.exit(0)
             else:
                 print(f"Command {script_name} not found")
