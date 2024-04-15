@@ -1,6 +1,6 @@
 ###########################
 #       Keylogger         #
-#   Author: azazelm3dj3d  #
+#   Author: battleoverflow  #
 ###########################
 
 from pynput.keyboard import Key, Listener

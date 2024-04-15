@@ -31,7 +31,7 @@ def main():
         elif script_name == "1" or script_name == "keylogger":
             keylogger()
         elif script_name == "e" or script_name == "exit":
-            print("Author: azazelm3dj3d (https://github.com/azazelm3dj3d)")
+            print("Author: battleoverflow (https://github.com/battleoverflow)")
             sys.exit(0)
         else:
             print(f"'{script_name}' command not found")

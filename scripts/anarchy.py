@@ -1,6 +1,6 @@
 ###########################
 #       Anarchy           #
-#   Author: azazelm3dj3d  #
+#   Author: battleoverflow  #
 ###########################
 
 from datetime import datetime
@@ -44,7 +44,7 @@ def anarchy(target_ip, port):
     ⣿⣿⣧⣀⣿.........⣀⣰⣏⣘⣆⣀
     """)
 
-    print("Author: azazelm3dj3d: https://github.com/azazelm3dj3d")
+    print("Author: battleoverflow: https://github.com/battleoverflow")
 
     # ANARCHY TIME
     def run_socket():
